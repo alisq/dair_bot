@@ -13,23 +13,42 @@
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-        
-        <input type="text" id="text01" placeholder="text1" value="this is some text">
-        <input type="text" id="text02" placeholder="text1" value="this is some more text">
-        <select id="contrast">
-            <option>weight</option>
-            <option>form</option>
-            <option>structure</option>
-            <option selected>direction</option>
-            <option>scale</option>
-            <option>texture</option>
-            <option>color</option>
-
-        </select>
-
-        <button id="generate">generate</button>
-
-        <div id="output"></div>
+        <div class="grid">
+            <div class="controls">
+                <input type="text" id="text01" placeholder="Text 1" value="Header">
+                <input type="text" id="text02" placeholder="Text 2" value="Subtitle text">
+                <select id="contrast1">
+                    <option selected>weight</option>
+                    <option>form</option>
+                    <option>structure</option>
+                    <option>direction</option>
+                    <option>scale</option>
+                    <option>texture</option>
+                    <option>color</option>
+                </select>
+                <select id="contrast2">
+                    <option >weight</option>
+                    <option selected>form</option>
+                    <option>structure</option>
+                    <option>direction</option>
+                    <option >scale</option>
+                    <option>texture</option>
+                    <option>color</option>
+                </select>
+                <select id="contrast3">
+                    <option >weight</option>
+                    <option>form</option>
+                    <option>structure</option>
+                    <option selected>direction</option>
+                    <option>scale</option>
+                    <option>texture</option>
+                    <option>color</option>
+                </select>
+                <button id="generate">generate</button>
+            </div>
+            <div id="output"></div>
+        </div>
+       
 
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="js/main.js" ></script>
